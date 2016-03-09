@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aa000000"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/main_start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/text_start"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/main_level_text"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/main_start_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/draw_main_level_border"
+        android:gravity="center"
+        android:textColor="#666666"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_level_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="@string/text_level"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        />
+
+    <ImageView
+        android:id="@+id/main_level_left"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/main_level_text"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/main_level_text"
+        android:background="@drawable/draw_main_level_btn"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_arrow_left"
+        android:textSize="40sp"
+        />
+
+    <ImageView
+        android:id="@+id/main_level_right"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/main_level_text"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/main_level_text"
+        android:background="@drawable/draw_main_level_btn"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_arrow_right"
+        android:textSize="40sp"
+        />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+apply plugin: 'me.tatarka.retrolambda'
+
+dependencies {
+    compile 'com.tencent.bugly:crashreport:1.2.7'
+    retrolambdaConfig 'net.orfjackal.retrolambda:retrolambda:+'
+}

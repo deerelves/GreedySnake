@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GreedySnack</string>
+    <string name="text_start">开始</string>
+    <string name="text_level">等级</string>
+    <string name="text_exit">退出</string>
+    <string name="text_restart">重新开始</string>
+    <string name="text_gameover">游戏结束</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+</resources>
